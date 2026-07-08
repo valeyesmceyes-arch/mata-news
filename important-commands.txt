@@ -1,0 +1,15 @@
+to refresh github laravel or any  thru terminal
+-Remove-Item -Recurse -Force .git
+
+Initialize a fresh tracking system
+-git init
+
+Add all your Laravel files (you should see the terminal work for a moment):
+-git add .
+
+Create your first save point:
+-git commit -m "Add full Laravel Herd project"
+
+By default, all of the controllers for your application are stored in the app/Http/Controllers directory:
+-php artisan make:controller UserController //create class
+
